@@ -9,6 +9,7 @@ matplotlib
 seaborn
 ipython
 
-# Machine learning
+# Machine learning and scientific computing
 scikit-learn
+scipy
 torch
