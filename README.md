@@ -1,37 +1,43 @@
-# Machine Learning Portfolio
+# Machine Learning Foundations
 
-This repository contains selected machine learning notebooks from my university studies, rewritten and organised as a portfolio of practical ML exercises.
+This repository contains cleaned portfolio versions of selected machine learning notebooks covering regression, classification, and neural networks.
 
-## Contents
+## Notebooks
 
-| Notebook | Topic | Skills Demonstrated |
+| Notebook | Topic | Main Skills Demonstrated |
 |---|---|---|
-| 01_regression.ipynb | Regression | Linear regression, MSE, gradient descent, regularisation |
-| 02_classification.ipynb | Classification | Normalisation, sigmoid function, classifiers, decision boundaries, accuracy |
-| 03_neural_networks.ipynb | Neural Networks | XOR problem, neural networks, PyTorch, Iris dataset |
+| `01_regression_cleaned.ipynb` | Regression and regularisation | Feature normalisation, linear regression, MSE, gradient descent, learning-rate tuning, regularised polynomial regression |
+| `02_classification_cleaned.ipynb` | Classification and logistic regression | Binary classification, sigmoid function, cross-entropy loss, decision boundaries, one-vs-all classification, softmax accuracy |
+| `03_neural_networks_cleaned.ipynb` | Neural networks | Random weight initialisation, feed-forward networks, backpropagation, XOR, MLP classification |
 
 ## Technologies Used
 
 - Python
-- Pandas
+- PyTorch
+- scikit-learn
+- pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
-- PyTorch
 - Jupyter Notebook
 
-## What I Learned
+## Setup
 
-- How to prepare data for machine learning models
-- How regression and classification models work
-- How neural networks learn from data
-- How to evaluate model performance
-- How to use Python ML libraries such as scikit-learn and PyTorch
-
-## How to Run
-
-Install dependencies:
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Open Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Then open the notebooks individually.
+
+## Notes
+
+These notebooks are cleaned portfolio versions of university machine learning work. 
+

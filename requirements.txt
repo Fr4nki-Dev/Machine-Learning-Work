@@ -1,0 +1,14 @@
+# Core notebook environment
+jupyter
+ipykernel
+
+# Data analysis and visualisation
+numpy
+pandas
+matplotlib
+seaborn
+ipython
+
+# Machine learning
+scikit-learn
+torch
